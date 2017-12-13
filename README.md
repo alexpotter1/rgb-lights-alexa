@@ -36,5 +36,6 @@ Repository to hold code to allow Amazon Alexa devices to control RGB lighting st
 
  5. Log in (or sign up) to your Amazon Developer account at [developer.amazon.com](https://developer.amazon.com/)
  6. Define a custom Alexa skill, and follow the wizard to setup your Skill Name, Invocation Name, your Intent Schema (as JSON), Sample Utterances (what you want to say to Alexa to trigger each intent), and Endpoint (select HTTPS and copy your URL here).
+ 7. Once you have defined a valid Interaction Model, your skill should be available for testing on your Amazon account. You can link the skill to Alexa by going to the Amazon Alexa app > Skills > Your Skills > Enable Skill (for your new lights skill)
 
 I am trying to work on porting this code to function using the Alexa Smart Home Skill API, as the voice commands to change lights state are less rigid grammatically, and more natural to say.
